@@ -5,7 +5,7 @@ SELECT
     u.id AS owner_id,                          -- Customer's user ID
     -- CONCAT(u.first_name, ' ', u.last_name) AS full_name,  -- Optional for verification/debugging
     CASE WHEN p.is_a_fund = 1 THEN 'Investment' ELSE 'Savings' END AS plan_type,
-        -- Categorize plan as Investment or Savings for clarity
+        -- Categorise plan as Investment or Savings for clarity
     t.last_transaction_date,                   -- Date of the most recent confirmed transaction
     DATEDIFF(CURDATE(), t.last_transaction_date) AS days_inactive
         -- Calculate days since last transaction to identify inactivity duration
