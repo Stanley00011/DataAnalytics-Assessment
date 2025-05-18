@@ -4,7 +4,6 @@
 
 This repository contains thoughtful and clearly written SQL queries designed to solve realistic business problems using structured relational data. The focus is not just on correctness, but on demonstrating stakeholder-aligned thinking and solid analytical reasoning. Every solution answers a specific business question, framed from the perspectives of marketing, operations, and finance.
 
----
 
 ## Per-Question Explanations
 
@@ -22,8 +21,6 @@ This repository contains thoughtful and clearly written SQL queries designed to 
 
 **Value to Stakeholders**:
 This insight is important for identifying loyal customers who trust the platform with multiple services. These users can be prioritized for rewards, deeper engagement, or targeted offers.
-
----
 
 ### Question 2: Transaction Frequency Analysis
 
@@ -44,8 +41,6 @@ This insight is important for identifying loyal customers who trust the platform
 **Value to Stakeholders**:
 The marketing team can use this to segment communications, while the product team might design features differently for frequent versus occasional users.
 
----
-
 ### Question 3: Account Inactivity Alert
 
 **Business Goal**: Detect user accounts with no deposits in the past 12 months to support re-engagement or flag potential drop-offs.
@@ -60,8 +55,6 @@ The marketing team can use this to segment communications, while the product tea
 
 **Value to Stakeholders**:
 This helps the operations and customer success teams run proactive outreach, re-engagement campaigns, or flag accounts at risk of churn.
-
----
 
 ### Question 4: Customer Lifetime Value (CLV) Estimation
 
@@ -85,8 +78,6 @@ This helps the operations and customer success teams run proactive outreach, re-
 **Value to Stakeholders**:
 CLV helps with resource planning and marketing budget allocation. It supports identifying who to retain, reward, or re-acquire.
 
----
-
 ## Challenges & Design Decisions
 
 ### 1. Tenure Calculation
@@ -105,8 +96,6 @@ Queries were written with readability in mind: indentation, aliasing, and commen
 
 Each query was written not just to answer the "what" — but the "why". The output of each script supports a specific business decision or team goal (engagement, segmentation, reactivation, or revenue optimization).
 
----
-
 ## File Overview
 
 | Filename                    | Purpose                                                   |
@@ -116,7 +105,6 @@ Each query was written not just to answer the "what" — but the "why". The outp
 | `q3_inactivity_alert.sql`   | Flag inactive accounts for re-engagement                  |
 | `q4_clv_estimation.sql`     | Estimate Customer Lifetime Value                          |
 
----
 
 ## Final Reflection
 
