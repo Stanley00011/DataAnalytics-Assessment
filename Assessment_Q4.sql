@@ -1,7 +1,7 @@
 SELECT
     u.id AS customer_id,
     CONCAT(u.first_name, ' ', u.last_name) AS name,  -- Combine first and last names for easier identification
-    -- Calculate account tenure in months; adding 1 to avoid division by zero when customer just signed up
+    -- Calculate account tenure in months, adding 1 to avoid division by zero when customer just signed up
     TIMESTAMPDIFF(MONTH, u.created_on, CURDATE()) + 1 AS tenure_months,
     -- Total number of transactions per customer (excluding zero or negative amounts)
     COALESCE(tx.total_transactions, 0) AS total_transactions,
