@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains thoughtful and clearly written SQL queries designed to solve realistic business problems using structured relational data. The focus is not just on correctness, but on demonstrating stakeholder-aligned thinking and solid analytical reasoning. Every solution answers a specific business question, framed from the perspectives of marketing, operations, and finance.
+This repository contains thoughtful and clearly written SQL queries designed to solve business problems using structured relational data. The focus is not just on correctness, but on demonstrating stakeholder-aligned thinking and solid analytical reasoning. Every solution answers a specific business question, framed from the perspectives of marketing, operations, and finance.
 
 
 ## Per-Question Explanations
