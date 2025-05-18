@@ -9,7 +9,7 @@ This repository contains thoughtful and clearly written SQL queries designed to 
 
 ### Question 1: High-Value Customers with Multiple Products
 
-**Business Goal**: Identify users who hold both a funded savings plan and a funded investment plan — a signal of deep product engagement.
+**Business Goal**: Identify users who hold both a funded savings plan and a funded investment plan, a signal of deep product engagement.
 
 **Approach**:
 
@@ -94,7 +94,7 @@ Queries were written with readability in mind: indentation, aliasing, and commen
 
 ### 4. Stakeholder Alignment
 
-Each query was written not just to answer the "what" — but the "why". The output of each script supports a specific business decision or team goal (engagement, segmentation, reactivation, or revenue optimization).
+Each query was written to answer not just the "what" but also the "why." The output of each script supports a specific business decision or team goal (engagement, segmentation, reactivation, or revenue optimization).
 
 ## File Overview
 
