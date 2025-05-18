@@ -14,7 +14,7 @@ WITH funded_savings AS (
 funded_investments AS (
     SELECT
         p.owner_id,
-        COUNT(DISTINCT p.id) AS investment_count            -- Count unique investment plans (funds)
+        COUNT(DISTINCT p.id) AS investment_count          -- Count unique investment plans (funds)
     FROM adashi_staging.plans_plan p
     WHERE p.is_a_fund = 1
     GROUP BY p.owner_id
@@ -23,7 +23,7 @@ funded_investments AS (
 -- Step 3: Combine results with user info
 SELECT
     u.id AS owner_id,
-    CONCAT(u.first_name, ' ', u.last_name) AS name,          -- Full user name for readability
+    CONCAT(u.first_name, ' ', u.last_name) AS name,        -- Full user name for readability
     fs.savings_count,
     fi.investment_count,
     fs.savings_total AS total_deposits
