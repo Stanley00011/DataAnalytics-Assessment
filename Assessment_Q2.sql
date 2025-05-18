@@ -22,7 +22,7 @@ monthly_averages AS (
     FROM customer_activity
 ),
 
--- Step 3: Categorize customers by transaction frequency
+-- Step 3: Categorise customers by transaction frequency
 frequency_categorized AS (
     SELECT
         CASE
