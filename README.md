@@ -94,7 +94,7 @@ Queries were written with readability in mind: indentation, aliasing, and commen
 
 ### 4. Stakeholder Alignment
 
-Each query was written to answer not just the "what" but also the "why." The output of each script supports a specific business decision or team goal (engagement, segmentation, reactivation, or revenue optimization).
+Each query was written to answer not just the "what" but also the "why." The output of each script supports a specific business decision or team goal (engagement, segmentation, reactivation, or revenue optimisation).
 
 ## File Overview
 
